@@ -85,12 +85,7 @@ style "window-buttons" = "theme-panel"
 	fg[PRELIGHT]	= @base_color
 
 	engine "murrine" {
-		contrast = 0.0
-		gradient_shades	= { 1.0, 0.9, 0.8, 0.7 }
-		roundness	= 1
-		reliefstyle	= 0
-		textstyle	= 1
-		text_shade	= 0.2
+		gradient_shades	= { 1.0, 0.9, 0.9, 0.9 }
 	}
 }
 
