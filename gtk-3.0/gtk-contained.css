@@ -2137,7 +2137,7 @@ menubar,
     background-color: #e8e8e7; }
   menubar > menuitem,
   .menubar > menuitem {
-    min-height: 16px;
+    min-height: 10px;
     padding: 4px 8px; }
     menubar > menuitem:hover,
     .menubar > menuitem:hover {
@@ -2162,7 +2162,7 @@ menu,
     background-color: #fcfcfc; }
   menu menuitem,
   .menu menuitem {
-    min-height: 16px;
+    min-height: 12px;
     min-width: 40px;
     padding: 4px 6px;
     text-shadow: none; }
@@ -3824,6 +3824,7 @@ scrolledwindow junction {
 
 separator {
   background: rgba(0, 0, 0, 0.1);
+  margin: 2px;
   min-width: 1px;
   min-height: 1px; }
 

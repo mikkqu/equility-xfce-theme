@@ -293,6 +293,8 @@ style "menu"
 	fg[SELECTED]      = @base_color
 	fg[ACTIVE]        = @fg_color
 	fg[INSENSITIVE]   = mix (0.4, @fg_color, @bg_color) # Text color for non-interactive menu items
+
+
 	text[NORMAL]      = @text_color # Color for menu-item radio/checks.
 	base[NORMAL]      = @bg_color # Color for menu-item radio/checks background.
 	text[PRELIGHT]    = @base_color
@@ -313,7 +315,7 @@ style "menu"
 style "menubar" = "menu"
 {
 	xthickness	= 3
-	ythickness	= 2
+	ythickness	= 3
 
 	bg[NORMAL]	= @bg_color
 
